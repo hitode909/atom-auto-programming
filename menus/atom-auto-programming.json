@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle atom-auto-programming",
+        "command": "atom-auto-programming:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atom-auto-programming",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "atom-auto-programming:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
