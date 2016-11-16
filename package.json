@@ -1,8 +1,8 @@
 {
   "name": "atom-auto-programming",
   "main": "./lib/atom-auto-programming",
-  "version": "0.0.1",
-  "description": "Provide statitical complements for git project.",
+  "version": "0.1.0",
+  "description": "Provide statistical complements for git project.",
   "keywords": [],
   "repository": "https://github.com/hitode909/atom-auto-programming",
   "license": "MIT",

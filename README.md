@@ -1,5 +1,20 @@
 # atom-auto-programming package
 
-A short description of your package.
+Provide statistical complements for git project.
+Uses the
+[autocomplete-plus](https://github.com/atom-community/autocomplete-plus) package.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+![](https://i.gyazo.com/c00485f40f1aaaf0e063cbf4e15f12d3.gif)
+
+## How To Use
+
+Write some code and run `autocomplete-plus` manually.
+You will get candidates of next line of the code.
+
+For example, when you type `use stri`, the code you want to get is `use strict;`, and the next line is `use warnings`.
+
+`atom-auto-programming` runs `git grep 'use stri'` internally, collect result, and sort by appear count.
+
+## Requirements
+
+- Only git projects are supported.
