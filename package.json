@@ -1,15 +1,14 @@
 {
   "name": "atom-auto-programming",
   "main": "./lib/atom-auto-programming",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.0.1",
+  "description": "Provide statitical complements for git project.",
   "keywords": [],
-  "repository": "https://github.com/atom/atom-auto-programming",
+  "repository": "https://github.com/hitode909/atom-auto-programming",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {},
   "providedServices": {
     "autocomplete.provider": {
       "versions": {
@@ -17,7 +16,7 @@
       }
     }
   },
-  "devDependencies": {
+  "dependencies": {
     "shell-quote": "^1.6.1"
   }
 }
