@@ -15,6 +15,12 @@ For example, when you type `use stri`, the code you want to get is `use strict;`
 
 `atom-auto-programming` runs `git grep 'use stri'` internally, collect result, and sort by appear count.
 
+## Install
+
+```
+apm install https://github.com/hitode909/atom-auto-programming
+```
+
 ## Requirements
 
 - Only git projects are supported.
