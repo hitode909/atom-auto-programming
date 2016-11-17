@@ -18,7 +18,7 @@ For example, when you type `use stri`, the code you want to get is `use strict;`
 ## Install
 
 ```
-apm install https://github.com/hitode909/atom-auto-programming
+apm install atom-auto-programming
 ```
 
 ## Requirements
